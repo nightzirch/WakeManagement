@@ -3,6 +3,38 @@ body {
   padding-top: 50px;
 }
 
-footer {
-    margin: 30px inherit 0 inherit !important;
+.jumbotron {
+    margin-bottom: 0;
 }
+
+.jumbotron.header {
+    background: url(../images/gtp-header.jpg) center center no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+
+.jumbotron.gray {
+    background-color: #bdc3c7;
+}
+
+.jumbotron.black {
+    background-color: #222;
+    color: #fff;
+}
+
+.jumbotron img.band {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.jumbotron img.staff {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+footer.jumbotron {
+    margin-bottom: -20px;
+}
+
